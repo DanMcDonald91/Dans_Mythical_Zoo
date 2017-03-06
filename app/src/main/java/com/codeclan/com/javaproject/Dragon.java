@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by user on 05/03/2017.
  */
 
-public class Dragon extends Beast{
+public class Dragon extends Beast implements Flyable{
 
     public Dragon(String name, int age) {
 
@@ -25,9 +25,6 @@ public class Dragon extends Beast{
 
 
 
-    public int getBellyContent(){
-        return belly.size();
-    }
 
 
 

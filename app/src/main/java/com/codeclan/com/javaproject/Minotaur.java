@@ -13,8 +13,10 @@ public class Minotaur extends Beast {
     }
 
     public String makeNoise(){
-        return "BLARGH";
+        return "BLARGH, FOOLISH HUMAN";
     }
+
+
 
 
 }

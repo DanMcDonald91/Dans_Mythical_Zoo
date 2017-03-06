@@ -5,4 +5,5 @@ package com.codeclan.com.javaproject;
  */
 
 public interface Swimmable {
+    String swim();
 }
