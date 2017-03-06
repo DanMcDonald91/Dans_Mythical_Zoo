@@ -34,7 +34,7 @@ public class TestZoo {
     }
 
     @Test
-    public void testEnclosures() {
+    public void testNumberOfEnclosures() {
         zoo.addEnclosure(enclosure1);
         zoo.addEnclosure(enclosure2);
         zoo.addEnclosure(enclosure3);

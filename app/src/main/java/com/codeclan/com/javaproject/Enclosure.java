@@ -9,10 +9,10 @@ import java.util.ArrayList;
 public class Enclosure {
 
     private String name;
-    private ArrayList<Animal> animals;
+    private ArrayList<Beast> beasts;
 
     public Enclosure(String name) {
         this.name =name;
-        this.animals = new ArrayList<Animal>();
+        this.beasts = new ArrayList<Beast>();
     }
 }
