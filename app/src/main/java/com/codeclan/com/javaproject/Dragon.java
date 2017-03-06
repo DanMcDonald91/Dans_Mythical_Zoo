@@ -8,12 +8,9 @@ import java.util.ArrayList;
 
 public class Dragon extends Beast{
 
-    public Dragon(String name, int age){
+    public Dragon(String name, int age) {
 
-        super("Big Rab", 600);
-        this.name = name;
-        this.age = age;
-        this.belly = new ArrayList<Edible>();
+        super(name, age);
     }
 
 
@@ -26,6 +23,12 @@ public class Dragon extends Beast{
 
     }
 
-    public String sleep
+
+
+    public int getBellyContent(){
+        return belly.size();
+    }
+
+
 
 }

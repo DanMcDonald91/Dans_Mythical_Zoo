@@ -12,7 +12,7 @@ public abstract class Beast {
 
      public String name;
      public int age;
-    protected ArrayList<Edible>belly;
+    protected ArrayList<Edible> belly;
 
 
 
@@ -36,6 +36,10 @@ public abstract class Beast {
 
     public void setAge(int age){
         this.age = age;
+    }
+
+    public String breathe(){
+        return "The Beast breathes";
     }
 
     public String makeNoise(){

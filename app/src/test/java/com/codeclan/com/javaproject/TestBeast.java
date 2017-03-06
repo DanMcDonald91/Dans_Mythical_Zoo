@@ -18,18 +18,29 @@ public class TestBeast {
     @Before
     public void Before(){
         dragon = new Dragon("Big Rab", 600);
-        minotaur = new Minotaur("Tam" , 200);
-        kraken = new Kraken("Wully", 2000);
+//        minotaur = new Minotaur("Tam" , 200);
+//        kraken = new Kraken("Wully", 2000);
     }
 
     @Test
     public void testGeDragontName() {
         assertEquals("Big Rab", dragon.getName());
-
     }
 
     @Test
-    public void testGetKrakenAge(){
-        assertEquals(2000, kraken.getAge());
+    public void testSetDragonName() {
+        dragon.setName("Big Rab");
+        assertEquals("Big Rab" , dragon.getName());
+    }
+
+    @Test
+    public void testGetDragonAge(){
+        assertEquals(600, dragon.getAge());
+    }
+
+    @Test
+    public void testSetDragonAge(){
+        dragon.setAge(700);
+        assertEquals(700, dragon.getAge());
     }
 }
