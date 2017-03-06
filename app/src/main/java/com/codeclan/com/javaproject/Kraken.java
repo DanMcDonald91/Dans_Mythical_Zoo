@@ -5,4 +5,8 @@ package com.codeclan.com.javaproject;
  */
 
 public class Kraken extends  Beast implements  Swimmable {
+
+    public Kraken(String name, int age){
+
+    }
 }

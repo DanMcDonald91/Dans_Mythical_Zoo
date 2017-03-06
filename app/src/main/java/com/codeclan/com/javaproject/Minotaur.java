@@ -5,4 +5,8 @@ package com.codeclan.com.javaproject;
  */
 
 public class Minotaur extends Beast {
+
+    public Minotaur(String name, int age){
+
+    }
 }
