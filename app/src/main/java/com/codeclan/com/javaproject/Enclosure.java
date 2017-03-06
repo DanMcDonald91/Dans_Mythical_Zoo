@@ -15,4 +15,18 @@ public class Enclosure {
         this.name =name;
         this.beasts = new ArrayList<Beast>();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void addBeast(Beast beasts) {
+        this.beasts.add(beasts);
+    }
+
+    public int getNumberOfBeasts(){
+        return beasts.size();
+    }
+
+
 }

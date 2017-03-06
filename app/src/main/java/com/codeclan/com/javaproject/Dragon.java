@@ -5,4 +5,6 @@ package com.codeclan.com.javaproject;
  */
 
 public class Dragon extends Beast implements Flyable {
+
+
 }

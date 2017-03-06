@@ -5,4 +5,9 @@ package com.codeclan.com.javaproject;
  */
 
 public class Beast {
+    String name;
+    String age;
+    String eat;
+    String breathe;
+
 }
