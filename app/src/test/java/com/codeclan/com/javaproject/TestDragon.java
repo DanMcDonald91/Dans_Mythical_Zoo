@@ -30,7 +30,22 @@ public class TestDragon {
     }
 
     @Test
-    public void
+    public void testDragonBreathes(){
+        assertEquals("The Beast breathes", dragon.breathe());
+    }
+
+    @Test
+    public void testBellyContent(){
+        assertEquals(0, dragon.foodCount());
+    }
+
+    @Test
+    public void testCanEatSteak(){
+        Steak steak = new Steak();
+        dragon.eat(steak);
+        assertEquals(1, dragon.foodCount());
+    }
+
 
 
 }

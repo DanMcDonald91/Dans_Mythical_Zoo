@@ -6,10 +6,12 @@ import java.util.ArrayList;
  * Created by user on 05/03/2017.
  */
 
-public  class Enclosure {
+public abstract class Enclosure {
 
     private String name;
     private ArrayList<Beast> beasts;
+
+
 
     public Enclosure(String name) {
         this.name =name;
@@ -28,5 +30,15 @@ public  class Enclosure {
         return beasts.size();
     }
 
+    public void removeBeast(Beast beasts){
+        this.beasts.remove(beasts);
+    }
 
-}
+//    public void feedBeasts(Edible food) {
+//        for (Beast : beasts){
+//            beasts.eat(food)
+//        }
+    }
+
+
+

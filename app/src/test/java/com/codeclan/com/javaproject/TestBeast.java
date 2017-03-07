@@ -24,25 +24,25 @@ public class TestBeast {
     }
 
     @Test
-    public void testGeDragontName() {
+    public void testGetName() {
         assertEquals("Big Rab", dragon.getName());
     }
 
     @Test
-    public void testSetDragonName() {
+    public void testSetName() {
         dragon.setName("Big Rab");
         assertEquals("Big Rab" , dragon.getName());
     }
 
     @Test
-    public void testGetDragonAge(){
-        assertEquals(600, dragon.getAge());
+    public void testGetAge(){
+        assertEquals(200, minotaur.getAge());
     }
 
     @Test
-    public void testSetDragonAge(){
-        dragon.setAge(700);
-        assertEquals(700, dragon.getAge());
+    public void testSetAge(){
+        dragon.setAge(200);
+        assertEquals(200, minotaur.getAge());
     }
 
     @Test
@@ -51,12 +51,14 @@ public class TestBeast {
     }
 
     @Test
-    public void testDragonBreathes(){
+    public void testBreathes(){
         assertEquals("The Beast breathes", dragon.breathe());
     }
 
     @Test
     public void testBellyContent(){
-        assertEquals(0, dragon.getBellyContents());
+        assertEquals(0, dragon.foodCount());
     }
+
+
 }

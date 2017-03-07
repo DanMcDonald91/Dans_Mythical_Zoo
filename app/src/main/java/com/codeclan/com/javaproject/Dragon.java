@@ -27,9 +27,15 @@ public class Dragon extends Beast implements Flyable{
         return "The Beast breathes";
     }
 
-    public int getBellyContents(){
+    public int foodCount(){
         return belly.size();
     }
+
+    @Override
+    public void eat(Edible food){
+        if (food instanceof Steak){
+            belly.add(food);
+        }
 
 }
 
