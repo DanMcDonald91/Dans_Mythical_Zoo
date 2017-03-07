@@ -5,5 +5,5 @@ package com.codeclan.com.javaproject;
  */
 
 public interface Flyable {
-    String fly();
+
 }

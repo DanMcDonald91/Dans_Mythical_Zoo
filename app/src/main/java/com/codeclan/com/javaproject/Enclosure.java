@@ -2,14 +2,16 @@ package com.codeclan.com.javaproject;
 
 import java.util.ArrayList;
 
+import static android.R.attr.name;
+
 /**
  * Created by user on 05/03/2017.
  */
 
 public abstract class Enclosure {
 
-    private String name;
-    private ArrayList<Beast> beasts;
+     String name;
+     ArrayList<Beast> beasts;
 
 
 
