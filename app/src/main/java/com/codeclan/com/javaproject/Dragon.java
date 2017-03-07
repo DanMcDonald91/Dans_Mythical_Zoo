@@ -23,6 +23,17 @@ public class Dragon extends Beast implements Flyable{
 
     }
 
+    public String breathe(){
+        return "The Beast breathes";
+    }
+
+    public int getBellyContents(){
+        return belly.size();
+    }
+
+}
+
+
 
 
 

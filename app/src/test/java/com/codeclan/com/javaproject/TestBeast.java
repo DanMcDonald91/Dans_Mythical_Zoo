@@ -18,8 +18,9 @@ public class TestBeast {
     @Before
     public void Before(){
         dragon = new Dragon("Big Rab", 600);
-//        minotaur = new Minotaur("Tam" , 200);
-//        kraken = new Kraken("Wully", 2000);
+        minotaur = new Minotaur("Tam" , 200);
+        kraken = new Kraken("Wully", 2000);
+
     }
 
     @Test
@@ -42,5 +43,20 @@ public class TestBeast {
     public void testSetDragonAge(){
         dragon.setAge(700);
         assertEquals(700, dragon.getAge());
+    }
+
+    @Test
+    public void testDragonFlys(){
+        assertEquals("Standing up tall, beating wings, lift off!", dragon.fly());
+    }
+
+    @Test
+    public void testDragonBreathes(){
+        assertEquals("The Beast breathes", dragon.breathe());
+    }
+
+    @Test
+    public void testBellyContent(){
+        assertEquals(0, dragon.getBellyContents());
     }
 }

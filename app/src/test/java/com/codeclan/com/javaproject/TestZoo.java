@@ -15,14 +15,16 @@ public class TestZoo {
     Enclosure enclosure1;
     Enclosure enclosure2;
     Enclosure enclosure3;
+    Enclosure enclosure4;
 
 
     @Before
     public void before() {
         zoo = new Zoo("Dans Mythical Zoo");
-        enclosure1 = new Enclosure("The Lair");
-        enclosure2 = new Enclosure("The Dark Deep");
-        enclosure3 = new Enclosure("The Labyrinth");
+        enclosure1 = new TheLair();
+        enclosure2 = new TheDarkDeep();
+        enclosure3 = new TheLabyrinth();
+        enclosure4 = new TheWhiteHouse();
 
     }
 
@@ -38,6 +40,7 @@ public class TestZoo {
         zoo.addEnclosure(enclosure1);
         zoo.addEnclosure(enclosure2);
         zoo.addEnclosure(enclosure3);
-        assertEquals(3, zoo.getNumberOfEnclosures());
+        zoo.addEnclosure(enclosure4);
+        assertEquals(4, zoo.getNumberOfEnclosures());
     }
 }

@@ -20,7 +20,11 @@ public abstract class Beast {
         this.name = name;
         this.age = age;
         this.belly = new ArrayList<Edible>();
+
+
     }
+
+
 
     public String getName(){
         return name;
@@ -40,6 +44,10 @@ public abstract class Beast {
 
     public String breathe(){
         return "The Beast breathes";
+    }
+
+    public int getBellySize(){
+        return belly.size();
     }
 
     public String makeNoise(){

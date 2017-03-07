@@ -8,12 +8,20 @@ import org.junit.Before;
 
 public class TestEnclosure {
 
+    Enclosure enclosure;
+
     Dragon dragon;
     Minotaur minotaur;
     Kraken kraken;
+    DonaldTrump donaldTrump;
 
     @Before
     public void before(){
+        enclosure = new TheDarkDeep();
+        minotaur = new Minotaur("Tam", 200);
+        dragon = new Dragon("Big Rab", 600);
+        kraken = new Kraken("Wully", 2000);
+        donaldTrump = new DonaldTrump("Donald Trump",70);
 
     }
 }

@@ -25,9 +25,12 @@ public class TestDragon {
     }
 
     @Test
-    public void testCanFly() {
+    public void testFly() {
         assertEquals("Standing up tall, beating wings, lift off!", dragon.fly());
     }
+
+    @Test
+    public void
 
 
 }

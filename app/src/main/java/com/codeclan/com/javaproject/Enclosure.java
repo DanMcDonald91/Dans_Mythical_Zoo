@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by user on 05/03/2017.
  */
 
-public class Enclosure {
+public  class Enclosure {
 
     private String name;
     private ArrayList<Beast> beasts;
