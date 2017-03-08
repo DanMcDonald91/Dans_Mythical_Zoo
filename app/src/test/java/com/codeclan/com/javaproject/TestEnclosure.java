@@ -43,7 +43,7 @@ public class TestEnclosure {
     public void testRemoveBeast(){
         enclosure.addBeast(kraken);
         enclosure.removeBeast(kraken);
-        assertEquals(0, enclosure.getNumberOfBeasts());
+        assertEquals(0, enclosure);
 
 
     }

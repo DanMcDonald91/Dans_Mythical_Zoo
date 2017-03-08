@@ -33,8 +33,11 @@ public class Dragon extends Beast implements Flyable{
 
     @Override
     public void eat(Edible food){
-        if (food instanceof Steak){
+        if (food instanceof Steak || food instanceof Chicken) {
             belly.add(food);
+            System.out.println("Ah tasty!");
+        }else{
+            System.out.println("What is this garbage?");
         }
 
 }

@@ -36,10 +36,7 @@ public abstract class Enclosure {
         this.beasts.remove(beasts);
     }
 
-//    public void feedBeasts(Edible food) {
-//        for (Beast : beasts){
-//            beasts.eat(food)
-//        }
+
     }
 
 

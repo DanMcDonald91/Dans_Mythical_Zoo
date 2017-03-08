@@ -21,10 +21,10 @@ public class TestZoo {
     @Before
     public void before() {
         zoo = new Zoo("Dans Mythical Zoo");
-//        enclosure1 = new TheLair();
-//        enclosure2 = new TheDarkDeep();
-//        enclosure3 = new TheLabyrinth();
-//        enclosure4 = new TheWhiteHouse();
+        enclosure1 = new TheLair("");
+        enclosure2 = new TheDarkDeep("");
+        enclosure3 = new TheLabyrinth("");
+        enclosure4 = new TheWhiteHouse("");
 
     }
 
